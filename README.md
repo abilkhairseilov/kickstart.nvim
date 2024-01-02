@@ -1,4 +1,73 @@
-# kickstart.nvim
+# bulletzenith/kickstart.nvim
+
+## INFO:
+
+This is my personal fork of [nvim-lua/kickstart.nvim.](https://github.com/nvim-lua/kickstart.nvim)
+
+I made this fork because I'm a distro hopper, and I always had the habit to change configurations. I probably have around 6 NeoVim configs backed up and renamed to different folders in my `~/.config/` folder.
+At one point I decided to stop this torture and settle down with my own configuration, something I will be proud of from hours of debugging and fixing errors in my configuration. 
+
+Feel free to copy this config, it might give you a spark on what you should add next.
+
+### TODO:
+ * Add code debugging
+ * Set up motions
+ * Set up proper dependencies for portability
+
+### INSTALLATION:
+
+1. Back up your `~/.config/nvim/` folder
+
+```sh
+cp ~/.config/nvim/ ~/.config/nvim.bak1
+```
+
+2. Clone this repository into `~/.config/nvim/`
+
+* https cloning
+```sh
+git clone https://github.com/bulletzenith/kickstart.nvim ~/.config/nvim/
+```
+
+* ssh cloning
+```sh
+git clone git@github.com:bulletzenith/kickstart.nvim ~/.config/nvim/
+```
+
+3. (optional) Clear any residue plugins you might have from your previous configuration
+
+**WARNING: THIS WILL CLEAR ALL OF YOUR CLONED PLUGINS, LANGUAGE SERVERS AND SWAP FILES. PROCEED WITH CAUTION.**
+
+```sh
+rm -rf ~/.local/share/nvim/
+rm -rf ~/.local/state/nvim/
+```
+### POST INSTALLATION:
+
+Run Neovim:
+```sh
+nvim
+```
+Neovim will automatically start [lazy.nvim](https://github.com/folke/lazy.nvim) and clone all listed plugins in the filetree.
+
+The beauty of Neovim is that you can tailor it to whatever you like. [Every copy of Neovim is personalized.](https://knowyourmeme.com/photos/1874433-super-mario-64-conspiracy-theories)
+
+### UNINSTALLATION:
+
+Simply remove the current `~/.config/nvim/` folder.
+
+```sh
+rm -rf ~/.config/nvim/
+```
+If you wish to return your old configuration, which you should've backed up while following this tutorial, simply rename it:
+
+```sh
+mv ~/.config/nvim.bak/ ~/.config/nvim/
+```
+
+# OLD README
+
+## kickstart.nvim
 
 https://github.com/kdheepak/kickstart.nvim/assets/1813121/f3ff9a2b-c31f-44df-a4fa-8a0d7b17cf7b
 
