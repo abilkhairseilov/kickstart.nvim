@@ -1,6 +1,0 @@
-{
-  "dependencies": {
-    "coffeescript": "^2.7.0",
-    "coffeescript-lsp-core": "github:yorkxin/coffeescript-lsp-core"
-  }
-}
