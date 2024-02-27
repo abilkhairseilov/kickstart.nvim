@@ -1,4 +1,13 @@
 return {
-	"rebelot/kanagawa.nvim",
-	--vim.cmd.colorscheme "kanagawa",
+
+  -- Kanagawa
+  {
+    'rebelot/kanagawa.nvim',
+  },
+
+  -- Theme inspired by Atom
+  {
+    'navarasu/onedark.nvim',
+    priority = 1000,
+  },
 }
