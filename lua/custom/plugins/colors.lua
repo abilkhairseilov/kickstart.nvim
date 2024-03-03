@@ -8,6 +8,12 @@ return {
   -- Theme inspired by Atom
   {
     'navarasu/onedark.nvim',
-    priority = 1000,
+  },
+
+  {
+    'sainnhe/gruvbox-material',
+    config = function()
+      vim.cmd [[colorscheme gruvbox-material]]
+    end,
   },
 }
