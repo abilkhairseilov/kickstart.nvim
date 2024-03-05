@@ -11,8 +11,6 @@ Feel free to copy this config, it might give you a spark on what you should add 
 
 ### TODO:
  * Add code debugging
- * Set up motions
- * Set up proper dependencies for portability
 
 ### INSTALLATION:
 
