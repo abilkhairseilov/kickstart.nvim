@@ -76,6 +76,9 @@ require('lazy').setup({
   require 'custom.plugins.colors',
   require 'custom.plugins.colorizer',
   require 'custom.plugins.dressing',
+  --require 'custom.plugins.cmp',
+  require 'custom.plugins.lspkind',
+  require 'custom.plugins.md-preview',
 }, {
   ui = {
     -- If you are using a Nerd Font: set icons to an empty table which will use the
